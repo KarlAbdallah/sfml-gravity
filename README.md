@@ -20,7 +20,7 @@ To compile and run using VS Code, open the entire project in VS Code and press t
 * Navigate to the project directory,
 * Enter to compile: 
 ```
-g++ -I<SFML-PATH>\include -L<SFML-PATH>\lib -g src\main.cpp src\event.cpp src\object.cpp src\render.cpp src\solver.cpp -o build\sfml-verlet-physics.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main
+g++ -I<SFML-PATH>\include -L<SFML-PATH>\lib -g src\core.cpp src\event.cpp src\physics.cpp src\math.cpp src\solver.cpp -o build\sfml-gravity.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main
 ```
 with \<SFML-PATH> being the path to your SFML library (e.g.: C:\SFML-2.6.1).
 * Enter to run:
